@@ -1,51 +1,53 @@
 
 const About = () => {
   return (
-    <section className="py-20 bg-slate-900 text-white">
+    <section className="py-20 bg-slate-900 text-white" id="about">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
-            <h2 className="text-4xl md:text-5xl font-bold mb-8">
-              About <span className="text-cyan-400">medCaliper</span>
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-16">
+            <h2 className="text-4xl md:text-5xl font-bold text-white mb-6">
+              About MedCaliper
             </h2>
-            <div className="space-y-6 text-lg text-gray-300">
-              <p>
-                medCaliper represents the next generation of medical technology, 
-                combining artificial intelligence with clinical expertise to transform 
-                brain tumor care.
-              </p>
-              <p>
-                Our mission is to empower healthcare professionals with intelligent 
-                tools that enhance decision-making processes while ensuring patient 
-                care remains at the center of everything we do.
-              </p>
-              <p>
-                As a proud participant in the LIHE Accelerator Programme, we're 
-                committed to bringing innovative solutions to market that make a 
-                real difference in patient outcomes.
-              </p>
-            </div>
+            <p className="text-xl text-slate-300">
+              Pioneering the future of brain tumor treatment through AI innovation
+            </p>
           </div>
           
-          <div className="relative">
-            <div className="bg-gradient-to-br from-cyan-500 to-cyan-700 p-8 rounded-xl">
-              <h3 className="text-2xl font-bold mb-6 text-black">Why medCaliper?</h3>
-              <ul className="space-y-4 text-black">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <h3 className="text-3xl font-bold text-cyan-400 mb-6">Our Mission</h3>
+              <p className="text-slate-300 leading-relaxed mb-6">
+                MedCaliper is dedicated to transforming brain tumor care by harnessing the power of 
+                artificial intelligence to provide personalized, precise treatment recommendations.
+              </p>
+              <p className="text-slate-300 leading-relaxed mb-6">
+                We believe that every patient deserves access to the most advanced diagnostic and 
+                treatment tools available, and we're committed to making that vision a reality.
+              </p>
+              <p className="text-slate-300 leading-relaxed">
+                Our platform combines cutting-edge AI algorithms with clinical expertise to deliver 
+                insights that can improve patient outcomes and quality of life.
+              </p>
+            </div>
+            
+            <div className="bg-slate-800 p-8 rounded-xl border border-slate-700">
+              <h4 className="text-2xl font-bold text-white mb-4">Why It Matters</h4>
+              <ul className="space-y-4 text-slate-300">
                 <li className="flex items-start">
-                  <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>Evidence-based AI algorithms trained on comprehensive datasets</span>
+                  <span className="text-cyan-400 mr-3 text-xl">•</span>
+                  <span>Personalized treatment approaches for better outcomes</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>Seamless integration with existing clinical workflows</span>
+                  <span className="text-cyan-400 mr-3 text-xl">•</span>
+                  <span>Faster, more accurate diagnostic capabilities</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>Continuous learning and improvement capabilities</span>
+                  <span className="text-cyan-400 mr-3 text-xl">•</span>
+                  <span>Enhanced clinical decision-making support</span>
                 </li>
                 <li className="flex items-start">
-                  <span className="w-2 h-2 bg-black rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                  <span>Backed by leading medical research and innovation programs</span>
+                  <span className="text-cyan-400 mr-3 text-xl">•</span>
+                  <span>Improved quality of life for patients and families</span>
                 </li>
               </ul>
             </div>
